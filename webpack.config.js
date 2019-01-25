@@ -3,9 +3,13 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: './app/driver.js',
-  mode: 'development',
+
+  externals: {
+    'jquery': '$'
+  },
+
   module: {
-    rules: [
+    loaders: [
       {
         test: /\.html$/,
         loader: 'underscore-template-loader'

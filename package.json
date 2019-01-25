@@ -1,0 +1,33 @@
+{
+  "name": "backbone-marionette-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/driver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevencharleshuang/backbone-marionette-todo.git"
+  },
+  "author": "Steven Charles Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevencharleshuang/backbone-marionette-todo/issues"
+  },
+  "homepage": "https://github.com/stevencharleshuang/backbone-marionette-todo#readme",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "backbone.babysitter": "^0.1.12",
+    "backbone.marionette": "^4.0.0",
+    "backbone.wreqr": "^1.4.0",
+    "jquery": "^3.3.1",
+    "underscore": "^1.9.1",
+    "underscore-template-loader": "^1.0.0",
+    "webpack": "^4.29.0",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.1"
+  }
+}
